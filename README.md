@@ -1,6 +1,14 @@
 # Title
 KlimbB Chatbot
 
+# Project Description
+Initially created activate chat with chatGPT button, when i click on button, chatbox will open, In that when we send message to the provided url, the same message as a response obtained from backend and displayed on chatbox,
+
+Once the logic is implemented,
+In manifest.json file, add the default popup as index.html, add some icon
+
+Create a build folder by using command npm run build, Go to manage extensions, enable developer mode and unpack loaded will browse file to where we need to apply extension. This is how created chrome extension.
+
 
 # Getting Started with Create React App
 

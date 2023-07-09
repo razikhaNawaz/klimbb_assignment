@@ -9,6 +9,24 @@ In manifest.json file, add the default popup as index.html, add some icon
 
 Create a build folder by using command npm run build, Go to manage extensions, enable developer mode and unpack loaded will browse file to where we need to apply extension. This is how created chrome extension.
 
+the changes we need to make to the created react project: that is manifest.json file
+{
+  "name":"ChatGPT",
+  "description": "activate chat with chatGPT",
+  "version": "1.0",
+  "manifest_version":3,
+  "action":{
+    "default_title":"ChatGPT",
+    "default_popup":"index.html",
+    "default_icon" :{
+      "16": "logo192.png",
+      "128": "logo192.png"
+    }
+
+  }
+}
+
+
 
 # Getting Started with Create React App
 
